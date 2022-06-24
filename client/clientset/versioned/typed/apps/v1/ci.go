@@ -19,8 +19,9 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/linjinbao666/kube-code-generator/apis/apps/v1"
-	scheme "github.com/linjinbao666/kube-code-generator/client/clientset/versioned/scheme"
+	v1 "dt-runner/apis/apps/v1"
+	scheme "dt-runner/client/clientset/versioned/scheme"
+
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

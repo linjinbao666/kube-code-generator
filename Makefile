@@ -1,7 +1,7 @@
 IMAGE := docker.io/linjinbao66/kube-code-generator:1.0.0
 GROUP_NAME := "apps:v1"
 DIRECTORY := $(PWD)
-PROJECT_PACKAGE := github.com/linjinbao666/kube-code-generator
+PROJECT_PACKAGE := dt-runner
 DEPS_CMD := go mod tidy
 
 default: generate

@@ -19,8 +19,9 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/linjinbao666/kube-code-generator/apis/apps/v1"
-	"github.com/linjinbao666/kube-code-generator/client/clientset/versioned/scheme"
+	v1 "dt-runner/apis/apps/v1"
+	"dt-runner/client/clientset/versioned/scheme"
+
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

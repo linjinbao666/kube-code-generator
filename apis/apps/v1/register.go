@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	apps "github.com/linjinbao666/kube-code-generator/apis/apps"
+	apps "dt-runner/apis/apps"
 )
 
 const (

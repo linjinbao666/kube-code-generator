@@ -1,4 +1,4 @@
-module github.com/linjinbao666/kube-code-generator
+module dt-runner
 
 go 1.18
 

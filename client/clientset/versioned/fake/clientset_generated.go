@@ -19,9 +19,10 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/linjinbao666/kube-code-generator/client/clientset/versioned"
-	appsv1 "github.com/linjinbao666/kube-code-generator/client/clientset/versioned/typed/apps/v1"
-	fakeappsv1 "github.com/linjinbao666/kube-code-generator/client/clientset/versioned/typed/apps/v1/fake"
+	clientset "dt-runner/client/clientset/versioned"
+	appsv1 "dt-runner/client/clientset/versioned/typed/apps/v1"
+	fakeappsv1 "dt-runner/client/clientset/versioned/typed/apps/v1/fake"
+
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

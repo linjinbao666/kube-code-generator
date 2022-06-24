@@ -19,7 +19,8 @@ limitations under the License.
 package fake
 
 import (
-	appsv1 "github.com/linjinbao666/kube-code-generator/apis/apps/v1"
+	appsv1 "dt-runner/apis/apps/v1"
+
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

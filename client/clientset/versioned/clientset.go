@@ -19,7 +19,8 @@ limitations under the License.
 package versioned
 
 import (
-	appsv1 "github.com/linjinbao666/kube-code-generator/client/clientset/versioned/typed/apps/v1"
+	appsv1 "dt-runner/client/clientset/versioned/typed/apps/v1"
+
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
